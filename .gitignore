@@ -1,0 +1,9 @@
+.env
+env/
+__pycache__/
+*.pyc
+.DS_Store
+
+vectorstore/db_faiss/*
+!vectorstore/db_faiss/index.faiss
+!vectorstore/db_faiss/index.pkl
