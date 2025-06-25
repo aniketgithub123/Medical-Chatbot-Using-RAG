@@ -1,5 +1,5 @@
 import os
-os.environ["PORT"] = os.environ.get("PORT", "10000")
+
 
 import streamlit as st
 
