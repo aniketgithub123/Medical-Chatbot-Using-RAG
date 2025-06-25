@@ -1,7 +1,9 @@
 import os
+os.environ["PORT"] = os.environ.get("PORT", "10000")
+
 import streamlit as st
 
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 
 from langchain_community.vectorstores import FAISS
